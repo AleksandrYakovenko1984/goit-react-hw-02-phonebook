@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import shortid from "shortid";
+import Notiflix from "notiflix";
 import ContactForm from "./components/PhoneBook/Form";
 import ContactList from "./components/PhoneBook/ContactList";
 import Filter from "./components/PhoneBook/Filter";
-import Notiflix from "notiflix";
+
 import { TopTitle } from "./components/PhoneBook/PhoneBook.styled.js";
 
 class App extends Component {
