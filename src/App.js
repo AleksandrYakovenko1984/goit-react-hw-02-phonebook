@@ -19,7 +19,7 @@ class App extends Component {
   };
   formSubmitHendler = (data) => {
     const findContact = this.state.contacts.find(
-      (contact) => contact.name === data.name
+      (contact) => contact.name.toLowerCase() === data.name.toLowerCase()
     );
 
     if (!findContact) {
